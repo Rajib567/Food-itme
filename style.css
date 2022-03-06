@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+.top-banner {
+  background-image: url("images/two-bg.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.menubar a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: olive;
+  margin: 50px;
+}
+.menubar a:hover {
+  color: orange;
+}
+.top-menu {
+  text-align: center;
+  margin: -10px;
+  padding: 20px;
+}
+
+.title-flax {
+  display: flex;
+}
+.title-line {
+  padding: 80px;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 200px;
+  margin-right: 50px;
+  color: orange;
+}
+.image-banner {
+  margin-left: 40%;
+  margin-right: 500px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Food-grid {
+  
+  text-align: center;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px 30px;
+}
+.image-size {
+  height: 300px;
+  width: 300px;
+}
+.text-color {
+  color: orange;
+}
+
+.footer-banner{
+  margin-top: 80px;
+  text-align: center;
+  background-color: lightsalmon;
+  padding: 50px;
+  color: white;
+}
