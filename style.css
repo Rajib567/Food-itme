@@ -19,6 +19,27 @@ body {
 .menubar a:hover {
   color: orange;
 }
+.button-bar{
+margin-left: 50%;
+
+text-align: center;
+padding: 20px;
+
+  
+}
+.button{
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border-radius: 30px;
+  
+}
+.button:hover{
+  color: white;
+  background-color: aqua;
+}
 .top-menu {
   text-align: center;
   margin: -10px;
